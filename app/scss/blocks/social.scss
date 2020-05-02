@@ -1,0 +1,29 @@
+.social {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.intro__social {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    &-link {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        margin-right: 15px;
+        &:hover {
+            color: #e3a062;
+        }
+    }
+    &-btn {
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+    }
+}

@@ -5,18 +5,31 @@
 
 // ============== Block =================
 @import "blocks/intro";
+@import "blocks/header";
+@import "blocks/social";
 // ============== Block =================
 
 
 
 
 
+.container  {
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
 
 
 
-
-
-
+body {
+    overflow: hidden;
+}
 
 
 
