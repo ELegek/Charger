@@ -1,0 +1,41 @@
+.services {
+    width: 100%;
+    min-height: 530px;
+    background: url(../../img/services__bg.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 5;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 90px;
+        padding-top: 120px;
+    }
+    &__title {
+        font-size: 60px;
+        color: #fff;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+    }
+    &__link {
+        padding-top: 30px;
+        a {
+            font-size: 14px;
+            color: #fff;
+            text-decoration: none; 
+            text-transform: uppercase;
+        }
+
+    }
+}
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background: linear-gradient(to bottom, #000000,);
+    opacity: 0.9;
+}

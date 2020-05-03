@@ -3,7 +3,8 @@ $(function(){
     $('.slider-header').slick ({
         arrows: true,
         fade: true,
-        autoplay: 3000
+        infinite: true,
+        prevArrow: '<button class="slick-prev slick-arrow" type="button">Prev</button>',
     });
 
   

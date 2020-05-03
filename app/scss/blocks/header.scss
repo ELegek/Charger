@@ -42,7 +42,7 @@
     text-decoration: none;
     text-transform: uppercase;
     position: relative;
-    transition: color .2s linear;
+    transition: all .3s linear;
     &:after {
         content: "";
         width: 100%;
@@ -55,6 +55,7 @@
         bottom: 0;
         right: 0;
         margin-top: 5px;
+        transition: all .3s linear;
     }
     &:hover {
         color: #e3a062;

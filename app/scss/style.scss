@@ -7,6 +7,8 @@
 @import "blocks/intro";
 @import "blocks/header";
 @import "blocks/social";
+@import "blocks/about";
+@import "blocks/services";
 // ============== Block =================
 
 
@@ -24,11 +26,28 @@
 *:after {
     box-sizing: border-box;
 }
+.container__min {
+    width: 100%;
+    max-width: 900px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.btn {
+    border: 2px solid #e3a062;
+    background: none;
 
-
-
-body {
-    overflow: hidden;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 20px 75px;
+    outline: none;
+    text-decoration: none;
+    transition: all .3s linear;
+    &:hover {
+        background-color:  #e3a062;
+        color: #fff;
+    }
 }
 
 
