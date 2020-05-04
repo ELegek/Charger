@@ -9,6 +9,9 @@
 @import "blocks/social";
 @import "blocks/about";
 @import "blocks/services";
+@import "blocks/projects";
+@import "blocks/revious";
+@import "blocks/footer";
 // ============== Block =================
 
 
@@ -17,7 +20,7 @@
 
 .container  {
     width: 100%;
-    max-width: 1230px;
+    max-width: 2010px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -28,7 +31,7 @@
 }
 .container__min {
     width: 100%;
-    max-width: 900px;
+    max-width: 1230px;
     padding: 0 15px;
     margin: 0 auto;
 }

@@ -9,6 +9,52 @@
     &__flex {
         padding: 0 400px;
     }
+    .slick-slider {
+        width: 1230px;
+        position: relative;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .slick-arrow {  
+        position: absolute;
+        top: 50%;
+        border: 0;
+        background: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        outline: none;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700; 
+        z-index: 1000; 
+        cursor: pointer;
+    }
+    .slick-prev {
+        left: 0;
+        &:after {
+            position: absolute;
+            content: "";
+            width: 50px;
+            height: 2px;
+            background-color: #e3a062;
+            top: 50%;
+            display: block;
+            right: -60px;
+        }
+    }
+    .slick-next {
+        right: 0;
+        &:before {
+            position: absolute;
+            content: "";
+            width: 50px;
+            height: 2px;
+            background-color: #e3a062;
+            top: 50%;
+            display: block;
+            left: -60px;   
+        }
+    }
 }
 .mask {
     position: absolute;
@@ -56,47 +102,4 @@
         }
     }
 
-}
-.slick-slider {
-    width: 1230px;
-    position: relative;
-    padding: 0 15px;
-}
-.slick-arrow {  
-    position: absolute;
-    top: 50%;
-    border: 0;
-    background: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 14px;
-    outline: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;  
-}
-.slick-prev {
-    left: 0;
-    &:after {
-        position: absolute;
-        content: "";
-        width: 50px;
-        height: 2px;
-        background-color: #e3a062;
-        top: 50%;
-        display: block;
-        right: -60px;
-    }
-}
-.slick-next {
-    right: 0;
-    &:before {
-        position: absolute;
-        content: "";
-        width: 50px;
-        height: 2px;
-        background-color: #e3a062;
-        top: 50%;
-        display: block;
-        left: -60px;   
-    }
 }

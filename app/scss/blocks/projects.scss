@@ -1,0 +1,50 @@
+.projects {
+    padding-top: 190px;
+    position: relative;
+    .about__context {
+        bottom: 95px;
+    }
+    &__header {
+        width: 100%;
+        text-align: center;
+    }
+    &__title {
+        font-size: 60px;
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+        display: inline-block;
+        &:after {
+            content: "";
+            width: 60px;
+            height: 2px;
+            background-color: #e3a062;
+            display: block;
+            margin: 20px auto;
+            
+        }
+    }
+    &__item {
+        width: 430px;
+        height: 280px;
+        margin: 30px 30px;
+    }
+    &__img {
+        img {
+            width: 430px;
+            height: 280px;
+        }
+    }
+    &__slider {
+        width: 100%;
+    }
+    &__slider2 {
+        width: 100%;
+    }
+    &__btn {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 120px;
+    }
+}

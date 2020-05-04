@@ -3,7 +3,7 @@
     position: relative;
     &__inner {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         
     }
@@ -16,14 +16,22 @@
     }
     &__item {
         display: block;
-        width: 36%;
+        max-width: 400px;
     }
     &__title {
         font-family: 'Playfair Display', serif;
         font-size: 60px;
         color: #000;
         font-weight: 700;
-        padding-bottom: 60px;
+        padding-bottom: 30px;
+        &:after {
+            content: "";
+            width: 50px;
+            height: 2px;
+            background-color: #e3a062;
+            display: block;
+            margin-top: 30px;
+        }
     }
     &__text {
         font-size: 16px;
