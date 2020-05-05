@@ -1,0 +1,42 @@
+@media (max-width: 1230px) {
+    // ========== intro ===========
+    .intro .slick-arrow {
+        margin: 0 50px;
+    }
+    // ========== intro ===========
+
+    // ========== About ===========
+    .about__a {
+        font-size: 200px;
+    }
+    .about__context {
+        right: 50px;
+    }
+    // ========== About ===========
+
+    // ========== Services ===========
+    .services__s {
+        font-size: 200px;
+        top: -125px;
+    }
+    .services__header {
+        justify-content: space-around;
+    }
+    .services__context {
+        opacity: 0;
+    }
+    // ========== Services ===========
+
+}
+@media (max-width: 1024px) {
+    
+}
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 480px) {
+    
+}
+@media (max-width: 320px) {
+    
+}

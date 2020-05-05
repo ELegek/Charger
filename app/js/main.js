@@ -15,14 +15,16 @@ $(function(){
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: 3000,
+        mobileFirst:true,
         responsive: [
           {
-            breakpoint: 1024,
+            breakpoint: 1230,
             settings: {
               slidesToShow: 3,
-              slidesToScroll: 3,
+              slidesToScroll: 1,
               infinite: true,
-              dots: true
+              dots: false,
+              
             }
           },
           {
