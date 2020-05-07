@@ -10,12 +10,6 @@
         width: 400px;
         margin: 0 auto;
     }
-    .slick-slider {
-        width: 1230px;
-        position: relative;
-        padding: 0 15px;
-        margin: 0 auto;
-    }
     .slick-arrow {  
         position: absolute;
         top: 50%;
@@ -81,12 +75,18 @@
         font-weight: 700;
         color: #e3a062;
         padding-bottom: 40px;
+        width: 400px;
+        margin: 0 auto;
+        text-align: left;
     }
     &-subtitle {
         font-size: 16px;
         color: #fff;
         font-weight: 400;
         padding-bottom: 65px;
+        width: 400px;
+        margin: 0 auto;
+        text-align: left;
     }
     &-link {
         font-size: 14px;
@@ -103,4 +103,10 @@
         }
     }
 
+}
+.slider-header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center
 }

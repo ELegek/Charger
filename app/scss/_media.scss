@@ -1,16 +1,21 @@
 @media (max-width: 1230px) {
     // ========== intro ===========
+
+    .intro__inner-title {
+        font-size: 120px;
+    }
     .intro .slick-arrow {
         margin: 0 50px;
     }
     // ========== intro ===========
 
     // ========== About ===========
-    .about__a {
-        font-size: 200px;
-    }
+
     .about__context {
         right: 50px;
+    }
+    .about__a {
+        font-size: 200px;
     }
     // ========== About ===========
 
@@ -28,15 +33,245 @@
     // ========== Services ===========
 
 }
-@media (max-width: 1024px) {
-    
+
+
+
+
+
+
+@media (max-width: 990px) {
+    // ========== intro ===========
+    .intro__inner-title {
+        font-size: 80px;
+    }
+    // ========== intro ===========
+
+
+    // ========== About ===========
+    .about {
+        padding: 80px 0;
+    }
+    .about__a {
+        font-size: 130px;
+    }
+    .about__title {
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+    .about__title:after {
+        margin-top: 15px;
+    }
+    .about__text {
+        font-size: 14px;
+    }
+    // ========== About ===========
 }
-@media (max-width: 768px) {
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    // ========== intro ===========
+    .intro__inner-title {
+        font-size: 65px;
+        text-align: center;
+    }
+    .intro__inner-subtitle {
+        text-align: center;
+        font-size: 12px;
+    }
+    .intro .slick-arrow {
+        margin: 0;
+        top: 78%;
+    }
+
+    body.lock {
+        overflow: hidden;
+    }
+    .header__title {
+        font-size: 20px;    
+    }
+    .header__subtitle {
+        font-size: 10px;
+    }
+    .header__inner {
+        height: 50px;
+    }
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        z-index: 950;
+        &:before,&:after {
+            content: "";
+            background-color: #fff;
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            left: 0;
+            transition: all .3s ease 0s;
+        }
+        &:before {
+            top: 0;
+        }
+        &:after {
+            bottom: 0;
+        }
+        span {
+            position: absolute;
+            background-color: #fff;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            top: 9px;
+            transition: all .3s ease 0s;
+        }
+    }
+
+    .header__burger.active:before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .header__burger.active:after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .header__burger.active span {
+        transform: scale(0);
+    }
+
+    .header__menu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: #e3a062;
+        padding-top: 70px;
+        transition: all .3s ease 0s;
+    }
+    .header__menu.active {
+        top: 0;
+    }
+    .header__list {
+        display: block;
+        li {
+            margin-bottom: 20px;
+        }
+    }
+    // ========== intro ===========
     
+
+
+    // ========== About ===========
+    .about {
+        padding: 50px 0;
+    }
+    .about__a {
+        font-size: 80px;
+    }
+    .about__title {
+        font-size: 40px;
+        padding-bottom: 15px;
+    }
+    .about__title:after {
+        margin-top: 10px;
+    }
+    .about__text {
+        font-size: 12px;
+    }
+    .about__context {
+        bottom: 70px;
+    }
+
+    .btn {
+        padding: 8px 50px;
+    }
+    // ========== About ===========
 }
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 480px) {
-    
+    // ========== intro ===========
+    .intro__inner-title {
+        font-size: 65px;
+        text-align: center;
+    }
+    .intro__inner-subtitle {
+        text-align: center;
+        font-size: 12px;
+    }
+    .intro .slick-arrow {
+        margin: 0;
+        top: 78%;
+    }
+    // ========== intro ===========
+
+    // ========== About ===========
+    .about__inner {
+        flex-direction: column;
+    }
+    .about__item {
+        width: 75%;
+    }
+    // ========== About ===========
 }
+
+
+
+
+
+
 @media (max-width: 320px) {
-    
+    // ========== intro ===========
+    .intro__inner-title {
+        width: 100%;
+    }
+    .intro__inner-subtitle {
+       width: 100%;
+    }
+    .intro .slick-arrow {
+        top: 78%;
+    }
+    // ========== intro ===========
+
+    // ========== About ===========
+    .about {
+        padding: 25px 0;
+    }
+    .about__title {
+        font-size: 25px;
+    }
+    .about__a {
+        font-size: 0;
+    }
+    .about__context {
+        font-size: 0;
+    }
+    .about__context:after {
+        display: none;
+    }
+    .about__item {
+        width: 100%;
+    }
+    .about__text {
+        padding-bottom: 25px;
+    }
+    // ========== About ===========
 }
