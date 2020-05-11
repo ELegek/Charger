@@ -4,9 +4,11 @@
     .intro__inner-title {
         font-size: 120px;
     }
+
     .intro .slick-arrow {
         margin: 0 50px;
     }
+
     // ========== intro ===========
 
     // ========== About ===========
@@ -14,9 +16,11 @@
     .about__context {
         right: 50px;
     }
+
     .about__a {
         font-size: 200px;
     }
+
     // ========== About ===========
 
     // ========== Services ===========
@@ -24,13 +28,32 @@
         font-size: 200px;
         top: -125px;
     }
+
     .services__header {
         justify-content: space-around;
+        padding-bottom: 40px;
+        padding-top: 60px;
     }
+
     .services__context {
         opacity: 0;
     }
+
     // ========== Services ===========
+
+    // ========== Projects ===========
+    .projects {
+        padding-top: 60px;
+    }
+
+    // ========== Projects ===========
+
+    // ========== Revious ===========
+    .revious {
+        padding: 200px 0;
+    }
+
+    // ========== Revious ===========
 
 }
 
@@ -40,10 +63,12 @@
 
 
 @media (max-width: 990px) {
+
     // ========== intro ===========
     .intro__inner-title {
         font-size: 80px;
     }
+
     // ========== intro ===========
 
 
@@ -51,20 +76,85 @@
     .about {
         padding: 80px 0;
     }
+
     .about__a {
         font-size: 130px;
     }
+
     .about__title {
         font-size: 50px;
         padding-bottom: 20px;
     }
+
     .about__title:after {
         margin-top: 15px;
     }
+
     .about__text {
         font-size: 14px;
     }
+
     // ========== About ===========
+
+    // ========== Services ===========
+    .services__s {
+        font-size: 130px;
+        top: -82px;
+    }
+
+    .services__header {
+        justify-content: space-around;
+        padding-bottom: 40px;
+        padding-top: 60px;
+    }
+
+    .services__context {
+        opacity: 0;
+    }
+
+    .services__title {
+        font-size: 50px;
+    }
+
+    .services__title:after {
+        margin-top: 2px;
+    }
+
+    .services__link {
+        padding-top: 0px;
+    }
+
+    .services__link a:after {
+        margin-top: 2px;
+    }
+
+    .services__header {
+        align-items: baseline;
+    }
+
+    // ========== Services ===========
+
+    // ========== Projects ===========
+    .projects {
+        padding-top: 60px;
+    }
+
+    .projects__title {
+        font-size: 50px;
+    }
+
+    .projects__title:after {
+        margin: 10px auto;
+    }
+
+    // ========== Projects ===========
+
+    // ========== Revious ===========
+    .revious {
+        padding: 150px 0;
+    }
+
+    // ========== Revious ===========
 }
 
 
@@ -76,15 +166,18 @@
 
 
 @media (max-width: 767px) {
+
     // ========== intro ===========
     .intro__inner-title {
         font-size: 65px;
         text-align: center;
     }
+
     .intro__inner-subtitle {
         text-align: center;
         font-size: 12px;
     }
+
     .intro .slick-arrow {
         margin: 0;
         top: 78%;
@@ -93,15 +186,19 @@
     body.lock {
         overflow: hidden;
     }
+
     .header__title {
-        font-size: 20px;    
+        font-size: 20px;
     }
+
     .header__subtitle {
         font-size: 10px;
     }
+
     .header__inner {
         height: 50px;
     }
+
     .header__burger {
         display: block;
         position: relative;
@@ -109,7 +206,9 @@
         height: 20px;
         position: relative;
         z-index: 950;
-        &:before,&:after {
+
+        &:before,
+        &:after {
             content: "";
             background-color: #fff;
             position: absolute;
@@ -118,12 +217,15 @@
             left: 0;
             transition: all .3s ease 0s;
         }
+
         &:before {
             top: 0;
         }
+
         &:after {
             bottom: 0;
         }
+
         span {
             position: absolute;
             background-color: #fff;
@@ -139,10 +241,12 @@
         transform: rotate(45deg);
         top: 9px;
     }
+
     .header__burger.active:after {
         transform: rotate(-45deg);
         bottom: 9px;
     }
+
     .header__burger.active span {
         transform: scale(0);
     }
@@ -158,36 +262,45 @@
         padding-top: 70px;
         transition: all .3s ease 0s;
     }
+
     .header__menu.active {
         top: 0;
     }
+
     .header__list {
         display: block;
+
         li {
             margin-bottom: 20px;
         }
     }
+
     // ========== intro ===========
-    
+
 
 
     // ========== About ===========
     .about {
         padding: 50px 0;
     }
+
     .about__a {
         font-size: 80px;
     }
+
     .about__title {
         font-size: 40px;
         padding-bottom: 15px;
     }
+
     .about__title:after {
         margin-top: 10px;
     }
+
     .about__text {
         font-size: 12px;
     }
+
     .about__context {
         bottom: 70px;
     }
@@ -195,7 +308,84 @@
     .btn {
         padding: 8px 50px;
     }
+
     // ========== About ===========
+
+    // ========== Services ===========
+    .services {
+        padding-bottom: 40px;
+    }
+
+    .services__header {
+        padding-bottom: 25px;
+        padding-top: 30px;
+    }
+
+    .services__items {
+        justify-content: center;
+    }
+
+    .services__item {
+        width: 100%;
+        max-width: 349px;
+        margin-bottom: 20px;
+    }
+
+    .services__item:last-child {
+        margin-bottom: 0;
+    }
+
+    .services__title {
+        font-size: 40px;
+    }
+
+    .services__link a {
+        font-size: 12px;
+    }
+
+    .services__title:after {
+        margin-top: 15px;
+    }
+
+    .services__s {
+        font-size: 80px;
+        top: -50px;
+    }
+
+    // ========== Services ===========
+
+    // ========== Projects ===========
+    .projects {
+        padding-top: 30px;
+    }
+
+    .projects__title {
+        font-size: 40px;
+    }
+
+    .projects__btn {
+        margin: 40px 0;
+    }
+
+    .projects .about__context {
+        bottom: 55px;
+    }
+
+    // ========== Projects ===========
+
+    // ========== Revious ===========
+    .revious {
+        padding: 100px 0;
+    }
+
+    // ========== Revious ===========   
+
+    // ========== Footer =========== 
+    .footer__menu {
+        justify-content: center;
+    }
+
+    // ========== Footer =========== 
 }
 
 
@@ -208,29 +398,81 @@
 
 
 @media (max-width: 480px) {
+
     // ========== intro ===========
     .intro__inner-title {
         font-size: 65px;
         text-align: center;
     }
+
     .intro__inner-subtitle {
         text-align: center;
         font-size: 12px;
     }
+
     .intro .slick-arrow {
         margin: 0;
         top: 78%;
     }
+
     // ========== intro ===========
 
     // ========== About ===========
     .about__inner {
         flex-direction: column;
     }
+
     .about__item {
         width: 75%;
     }
+
     // ========== About ===========
+
+    // ========== Services ===========
+
+    // ========== Services ===========
+
+    // ========== Projects ===========
+
+    // ========== Projects ===========
+
+    // ========== Revious ===========
+    .revious__title {
+        font-size: 24px;
+    }
+
+    .revious {
+        padding: 60px 0;
+    }
+
+    .revious__name {
+        font-size: 24px;
+    }
+
+    .revious__subtitle {
+        font-size: 14px;
+    }
+
+    .revious__title:after {
+        margin: 10px auto;
+    }
+
+    // ========== Revious =========== 
+
+    // ========== Footer =========== 
+    .footer__copy {
+        font-size: 10px;
+    }
+    .footer__autor {
+        font-size: 10px;
+    }
+    .footer__item {
+        padding: 15px 0;
+    }
+    .footer__menu {
+        padding-top: 20px;
+    }
+    // ========== Footer =========== 
 }
 
 
@@ -239,39 +481,101 @@
 
 
 @media (max-width: 320px) {
+
     // ========== intro ===========
     .intro__inner-title {
         width: 100%;
     }
+
     .intro__inner-subtitle {
-       width: 100%;
+        width: 100%;
     }
+
     .intro .slick-arrow {
         top: 78%;
     }
+
     // ========== intro ===========
 
     // ========== About ===========
     .about {
         padding: 25px 0;
     }
+
     .about__title {
         font-size: 25px;
     }
+
     .about__a {
         font-size: 0;
     }
+
     .about__context {
         font-size: 0;
     }
+
     .about__context:after {
         display: none;
     }
+
     .about__item {
         width: 100%;
     }
+
     .about__text {
         padding-bottom: 25px;
     }
+
     // ========== About ===========
+
+    // ========== Services ===========
+    .services__title {
+        font-size: 25px;
+    }
+
+    .services__s {
+        font-size: 0px;
+    }
+
+    .services__title:after {
+        margin-top: 2px;
+    }
+
+    .services__link {
+        padding-top: 0px;
+    }
+
+    .services__link a:after {
+        margin-top: 2px;
+    }
+
+    .services__header {
+        align-items: baseline;
+    }
+
+    .services__header {
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    // ========== Services ===========
+
+    // ========== Revious =========== 
+    .revious {
+        padding: 30px 0;
+    }
+
+    .revious__title {
+        font-size: 16px;
+    }
+
+    .revious__name {
+        font-size: 16px;
+    }
+
+    .revious__subtitle {
+        font-size: 10px;
+    }
+
+    // ========== Revious =========== 
 }
